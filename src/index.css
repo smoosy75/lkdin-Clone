@@ -5,3 +5,8 @@
 body {
   margin: 0;
 }
+
+@font-face {
+  font-family: "Myriad";
+  src: url(public/MyriadProBold.ttf);
+}

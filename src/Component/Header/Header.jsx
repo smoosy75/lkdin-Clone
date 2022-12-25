@@ -12,10 +12,10 @@ function Header() {
     <div className="header">
       <div className="header_left">
         <img src="public/linkedin.png" alt="logo" />
-      </div>
-      <div className="header_search">
-        <SearchIcon />
-        <input type="text" placeholder="Recherche" />
+        <div className="header_search">
+          <SearchIcon />
+          <input type="text" placeholder="Recherche" />
+        </div>
       </div>
       <div className="header_right">
         <HeaderOption Icon={HomeRoundedIcon} title="Accueil" />
@@ -26,7 +26,7 @@ function Header() {
         />
         <HeaderOption Icon={SmsRoundedIcon} title="Messagerie" />
         <HeaderOption Icon={NotificationsRoundedIcon} title="Notification" />
-        <HeaderOption avatar="" title="Vous" />
+        <HeaderOption avatar="/static/images/avatar/1.jpg" title="Vous" />
       </div>
     </div>
   );

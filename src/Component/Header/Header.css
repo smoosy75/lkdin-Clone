@@ -10,9 +10,14 @@
   z-index: 999;
 }
 
+.header_left {
+  display: flex;
+}
+
 .header_left > img {
   object-fit: contain;
   height: 40px;
+  margin-right: 10px;
 }
 
 .header_search {
@@ -22,7 +27,8 @@
   border-radius: 5px;
   background-color: #eef3f8;
   color: grey;
-  height: 18px;
+  height: 17px;
+  width: 250px;
 }
 
 .header_search > input {
