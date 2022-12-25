@@ -7,6 +7,8 @@ import SupervisorAccountRoundedIcon from "@mui/icons-material/SupervisorAccountR
 import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
 import SmsRoundedIcon from "@mui/icons-material/SmsRounded";
 import BusinessCenterRoundedIcon from "@mui/icons-material/BusinessCenterRounded";
+import AppsIcon from "@mui/icons-material/Apps";
+
 function Header() {
   return (
     <div className="header">
@@ -27,6 +29,7 @@ function Header() {
         <HeaderOption Icon={SmsRoundedIcon} title="Messagerie" />
         <HeaderOption Icon={NotificationsRoundedIcon} title="Notification" />
         <HeaderOption avatar="/static/images/avatar/1.jpg" title="Vous" />
+        <HeaderOption Icon={AppsIcon} title="Produits" />
       </div>
     </div>
   );
